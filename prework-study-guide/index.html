@@ -12,6 +12,7 @@
       <img 
       src="./assets/bowtie-cat.png" 
       alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
       <link rel="stylesheet" href="./assets/style.css">
     </header>
     <main>
@@ -54,7 +55,42 @@
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
      <ul>
-       <li>Enter your JavaScript notes here</li>
+       <li>variable: is simply a named container that allows us to store data in our code.</li>
+       <li>use the keyword const to create a variable</li>
+       <li>ex: const topics = "CSS, JavaScript";</li>
+       <li>The variablke is called topics and the string includes the topics "CSS, JavaScript</li>
+       <li>The string is always surrounded by quotation marks</li>
+       <li>JavaScript lines always end with a semicolon</li>
+       <li>Use console.log to add something to the console</li>
+       <li>ex: console.log(topics);</li>
+       <li>Link JS files in the body element</li>
+       <Li>Array: is a single variable that is used to hold a group of data</Li>
+       <li>Ty[ically used to store data that is related ex: shapes</li>
+       <li>To create an array, we declare a variable in the same way that we declared a variable with only one data item. That is, we use const and then give the variable a name. However, instead of assigning the variable to a single value, we assign the variable to a group of values.</li>
+       <li>ex: const shapes = ["triangle", "square", "pentagon", "circle"];</li>
+       <li>Arrays can also store multiple types of data ex: information about a student</li>
+       <li>ex: const studentInfo = ["Lu", 54, true];
+       <li>Lu is in quotation  marks because it is a string, 54 is a number (the students age), and true is a Boolean value to indetify enrollment status so they do not need to be in quotations </li>
+       <li>To work with individual data items inside an array, we need to have one more piece of information: the location of the data item in the array. This location is identified with a unique number called an index. </li>
+       <li>The first item in an array has an index of 0 and goes up by 1</li>
+       <li>ex: shapes[0]; this would access the first item in an array of shapes</li>
+       <li>To see it in action you would do console.log(shapes[0]);</li>
+       <li>If we had an array that looked like: const shapes = ["triangle", "square", "pentagon", "circle"];</li>
+       <li>You could keep typing console.log(shapes[0]);
+                                 console.log(shapes[1]); and so on but it is more efficient to use a loop</li>
+       <li>For this example it is best to use a for loop which contains 3 important statements</li>  
+       <li>The first statement determines the starting point for our loop. Since we want to start at the beginning of the array, we declare a variable x and give it a value of 0 (because the first index of an array is always 0) as shown in: let x = 0;</li> 
+       <li>The second statement is the condition. As long as the number in the variable x is less than the length of the array, the loop will keep running. This will allow the loop to execute one time for each item in the array. We use the length built-in array property on our shapes array to express that condition, as shown in the following line of code: x < shapes.length;</li>       
+       <li>The final statement is what allows the array to iterate over each item. Since indices follow a predictable pattern, we know the number increases by 1 each time. The code x++ is a shortcut way of writing x+1. Now every time the code loops, x will increase by 1, as shown in the following line of code: x++</li>       
+       <li>A for loop starts with for and should look like: for(let x = 0; x < shapes.length; x++) {
+        // code block}</li>
+        <li>Finally, we put the code that we want to be executed for each loop inside curly brackets. In our case, we want each of the items in the shapes array to be logged in the console. In place of an actual index number, however, we can add the variable x from our for loop</li>
+       <li>The shapes ex. above would look like:<li>
+       <li>const shapes = ["triangle", "square", "pentagon", "circle"];</li>
+       <li>for(let x = 0; x < shapes.length; x++) {
+          console.log(shapes[x]);
+         }</li>
+
      </ul>
 
       </section>
@@ -63,5 +99,6 @@
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>

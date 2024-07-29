@@ -6,7 +6,7 @@ header,footer {
     height: 120px;
     background-color: blue;
     color: white;}
-hi, h2 {
+hi, h2, header {
     text-align: center;}
 img {
     display: block;
