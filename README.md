@@ -1,9 +1,23 @@
-# README
+# Prework Study Guide Webpage
 
-As a boot camp student,
-I want the prework notes to be structured on a webpage,
-So that I can easily find and read the information.
+## Description
 
-GIVEN the prework project repository,
-WHEN I view the README for the repository,
-THEN I can see a professional README that provides information on the project and how to use it
+Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+
+- This project was created to store information about HTMP, CSS, git, and JavaScript.
+- This project was built as an aid to get entry-level information prior to starting a bootcamp. 
+
+## Usage
+
+There are four different sections in the guide and each section contains information about that specific topic. 
+
+## Credits
+
+N/A
+
+## License
+
+Refer to license in repo
+
+
+
