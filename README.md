@@ -2,8 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
 - This project was created to store information about HTMP, CSS, git, and JavaScript.
 - This project was built as an aid to get entry-level information prior to starting a bootcamp. 
 
